@@ -1,0 +1,297 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1342px) and (max-width: 1600px) {}
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    ul.email li {
+        padding: 0px 4px;
+    }
+    #banner1 .carousel-control-prev {
+        right: -2%;
+    }
+    #banner1 .carousel-control-next {
+        right: -2%;
+    }
+    .owl-carousel .owl-dots.disabled,
+    .owl-carousel .owl-nav.disabled {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 19px;
+    }
+    ul.email li {
+        padding: 0px 4px;
+    }
+    ul.email li a {
+        font-size: 17px;
+    }
+    ul.email li a img {
+        padding-left: 0px;
+        width: 18px;
+    }
+    .board h1 {
+        font-size: 76px;
+    }
+    #banner1 .carousel-control-prev {
+        right: -2%;
+    }
+    #banner1 .carousel-control-next {
+        right: -2%;
+    }
+    .owl-carousel .owl-dots.disabled,
+    .owl-carousel .owl-nav.disabled {
+        display: none !important;
+    }
+    .our_fishs .owl-nav {
+        display: none;
+    }
+    ul.opening li {
+        padding-right: 0px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 17px;
+    }
+    .d_none {
+        display: none;
+    }
+    .board h1 {
+        font-size: 58px;
+        line-height: 62px;
+    }
+    #banner1 .carousel-control-prev {
+        right: -2%;
+        top: 27%;
+    }
+    #banner1 .carousel-control-next {
+        right: -2%;
+    }
+    .owl-carousel .owl-dots.disabled,
+    .owl-carousel .owl-nav.disabled {
+        display: none !important;
+    }
+    .our_fishs .owl-nav {
+        display: none;
+    }
+    .blog_img {
+        padding-top: 30px;
+    }
+    .por_pic::before,
+    .por_pic::after {
+        position: inherit;
+    }
+    .por_pic {
+        padding-left: 0;
+    }
+    .logo_footer {
+        margin-top: 42px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .d_none {
+        display: none;
+    }
+    .board h1 {
+        font-size: 58px;
+        line-height: 62px;
+    }
+    #banner1 .carousel-control-prev {
+        right: -2%;
+    }
+    #banner1 .carousel-control-next {
+        right: -2%;
+    }
+    .every_img {
+        padding-top: 40px;
+    }
+    .about .titlepage {
+    padding-bottom: 30px;
+    }
+    .owl-carousel .owl-dots.disabled,
+    .owl-carousel .owl-nav.disabled {
+        display: none !important;
+    }
+    .our_fishs .owl-nav {
+        display: none;
+    }
+    .blog_img {
+        padding-top: 30px;
+    }
+    .por_pic::after,
+    .por_pic::before {
+        width: 5%;
+    }
+    .test_box h4 {
+        padding-top: 30px;
+    }
+    .map_img {
+        padding-top: 30px;
+    }
+    .subsci_btn {
+        margin-bottom: 25px;
+    }
+    .logo_footer {
+        padding-top: 0;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #f22e15;
+        padding: 20px;
+        margin-top: 60px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+        text-align: center;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding: 0;
+        width: 100%;
+        outline: inherit;
+        margin-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 48px;
+        float: right;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 22px 0px;
+    }
+    .slider_main {
+        padding-top: 20%;
+    }
+    .board h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    #banner1 .carousel-control-prev {
+        right: -2%;
+        top: 37%;
+    }
+    #banner1 .carousel-control-next {
+        right: -2%;
+    }
+    .board .read_more {
+        margin-bottom: 10px;
+    }
+    .every_img {
+        padding-top: 40px;
+    }
+   .about .titlepage {
+    padding-bottom: 30px;
+    }
+    .owl-carousel .owl-dots.disabled,
+    .owl-carousel .owl-nav.disabled {
+        display: none !important;
+    }
+    .our_fishs .owl-nav {
+        display: none;
+    }
+    .fist_sec {
+        padding: 60px 15px;
+    }
+    .blog_img {
+        padding-top: 30px;
+    }
+    .blog_box ul {
+        display: inherit;
+    }
+    .blog_box ul li a img {
+        padding-left: 4px;
+    }
+    .blog_box ul li {
+        padding-right: 5px;
+    }
+    .blog_box ul li a {
+        font-size: 14px;
+    }
+    .blog_box h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .por_pic::after,
+    .por_pic::before {
+        width: 10%;
+    }
+    .test_box h4 {
+        padding-top: 30px;
+    }
+    .map_img {
+        padding-top: 30px;
+    }
+    .subsci_btn {
+        margin-bottom: 25px;
+    }
+    .logo_footer {
+        padding-top: 0;
+    }
+    .titlepage h2 {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .group_form {
+        display: inherit;
+    }
+    .send_btn {
+        margin-top: 60px !important;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -34px;
+    }
+    .navigation .navbar-collapse {
+        background: #f22e15;
+        padding: 20px;
+        margin-top: 56px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+        text-align: center;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        margin-top: 1px;
+        padding: 0;
+        outline: inherit;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 48px;
+    }
+    .d_none {
+        display: none;
+    }
+}
